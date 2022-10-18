@@ -1,0 +1,118 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding-top: 25pt;
+    background-color: #1b1b1b;
+    font-family: Avenir, arial;
+    color: whitesmoke;
+}
+
+p {
+    font-size: 10pt;
+    font-weight: thin;
+    line-height: 20px;
+}
+
+.legende {
+    color: #D5D5D5;  
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+img {
+    width: 200pt;
+}
+
+img.radius {
+    border-radius: 10pt;
+}
+
+.visuel {
+    width: 200pt;
+    justify-content: center;
+    margin-bottom: 25pt;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.youtube {
+    width: 200pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************\
+/* CSS Tricks *\
+/**************\
+
+Flexbox Tricks :
+**************
+
+display: flex;
+
+justify content (horizontal){
+    flex-start: gauche
+    flex-end: droite
+    center: centre
+    space-between: répartis uniformément
+    space-around: répartis uniformément avec un espace égal autour d'eux
+}
+
+align items (vertical){
+    flex-start: haut
+    flex-end: bas
+    center: centre
+    stretch: étirés pour remplir l'écran
+    baseline: les lignes de textes des blocs s'alignent
+    align-self: contôle un élément
+}
+
+flex-direction{
+    row: haut
+    row-reverse: bas
+    center: centre
+    stretch: étirés pour remplir l'écran
+    baseline: les lignes de textes des blocs s'alignent
+}
+
+
+flex: 1 {
+    l'élement prend toute la place restante
+}
+
+flex: 2 {
+    prend 2 fois plus de place que flex: 1
+}
+
+Chemin de classe {
+    .classeParent>.classeEnfant {
+        ...
+    }
+}
+
+Image de fond {
+    background-image: url("../img/bar.jpg");
+    background-size: cover;
+}
+
+Taille auto d'un lien bouton{
+    display: inline-block;
+}
