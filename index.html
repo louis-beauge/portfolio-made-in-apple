@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio iOS</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles/bureau.css">
     <link rel="stylesheet" href="styles/bureau_desktop.css">
     <script src="js/app.js" defer></script>
@@ -28,6 +28,7 @@
     </header>
 
     <main id="dock-wrapper">
+      
 <!--
         <h2>Mes services</h2>
         <section class="section-icon">
@@ -54,28 +55,29 @@
 
             <div class="app">
               <a href="pages/logos.html"> 
-                <button class="dock-icon"><img src="img/bureau/5.png"/></button>
+                
+                <button data-descr="Logos" class="dock-icon"><img src="img/bureau/5.png"/></button>
               </a>
                 <legend>Logos</legend>
             </div>
 
-            <div class="app">
-              <a href="pages/affiches.html"> 
-                <button class="dock-icon"><img src="img/bureau/6.png"/></button>
+            <div  class="app">
+              <a  href="pages/affiches.html"> 
+                <button data-descr="Affiches" class="dock-icon"><img src="img/bureau/6.png"/></button>
               </a>
               <legend>Affiches</legend>
 
             </div>
             <div class="app">
               <a href="pages/social-network.html"> 
-                <button class="dock-icon"><img src="img/bureau/7.png"/></button>
+                <button data-descr="Réseaux sociaux" class="dock-icon"><img src="img/bureau/7.png"/></button>
               </a>
               <legend id="reseaux">Réseaux<br>sociaux</legend>
             </div>
 
             <div class="app">
               <a href="pages/photos.html"> 
-                <button class="dock-icon"><img src="img/bureau/8.png"/></button>
+                <button data-descr="Photos" class="dock-icon"><img src="img/bureau/8.png"/></button>
               </a>
               <legend>Photos</legend>
             </div>
@@ -86,9 +88,9 @@
 
             <div class="app">
               <a href="pages/audiovisuel.html"> 
-                <button class="dock-icon"><img src="img/bureau/9.png"/></button>
+                <button data-descr="Vidéos" class="dock-icon"><img src="img/bureau/9.png"/></button>
               </a>
-              <legend>Audiovisuel</legend>
+              <legend>Vidéos</legend>
             </div>
 <!--
             <div class="app">
@@ -100,7 +102,7 @@
 -->
             <div class="app">
               <a href="pages/vrac.html"> 
-                <button class="dock-icon"><img src="img/bureau/12.png"/></button>
+                <button data-descr="Vrac" class="dock-icon"><img src="img/bureau/12.png"/></button>
               </a>
               <legend>En vrac</legend>
             </div>
@@ -131,7 +133,7 @@
 
       <footer>
         <a href="mailto:louis.beauge@mailo.com">
-          <button>
+          <button data-descr="Contact"> 
             <img src="img/bureau/contact.png"/>
             <div>Me contacter</div>
           </button>

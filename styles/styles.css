@@ -3,43 +3,87 @@ html{
 }
 
 body {
-    margin: 0;
-    padding-top: 25pt;
+    margin-top: 50px;
     background-color: #1b1b1b;
     font-family: Avenir, arial;
     color: whitesmoke;
-}
-
-.legende {
-    color: #D5D5D5;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-img {
-    width: 200pt;
+    justify-content: center;
 }
 
 img.radius {
     border-radius: 10pt;
 }
 
-.visuel {
-    width: 200pt;
-    justify-content: center;
-    margin-bottom: 25pt;
-    margin-left: auto;
-    margin-right: auto;
+.legende {
+    color: #D5D5D5;
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+
+
+/** Galerie desktop */
+
+.galerie {
+    margin: 75px;
+}
+
+.galerie .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.galerie .box .colonne_2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.galerie .box .colonne {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    align-items: center;
+}
+
+.galerie .box .colonne img {
+    width: 100%;
+    margin-bottom: 18px;
+    border-radius: 5px;
 }
 
 .youtube {
-    width: 200pt;
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin-bottom: 17px;
+    border-radius: 5px;
 }
 
+.audio {
+    margin-bottom: 17px;
+}
 
+@media only screen and (max-width: 769px) {
+    .galerie .box {
+        flex-direction: column;
+    }
 
+    .galerie .box .colonne {
+        width: 100%;
+    }
 
+    .galerie {
+        margin: 10px;
+    }
+
+    body {
+        margin-top: 20px;
+    }
+}
 
 
 
@@ -59,6 +103,32 @@ img.radius {
 /**************\
 /* CSS Tricks *\
 /**************\
+
+
+body {
+    margin-top: 25pt;
+    background-color: #1b1b1b;
+    font-family: Avenir, arial;
+    color: whitesmoke;
+    justify-content: center;
+
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.visuel {
+    width: 80%;
+    max-width: 450px;
+}
+
+.visuel img {
+    flex: 1;
+    width: 100%;
+    height: auto;
+}
+
+
 
 Flexbox Tricks :
 **************

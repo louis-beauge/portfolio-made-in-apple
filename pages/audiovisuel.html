@@ -6,31 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audiovisuel</title>
     <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/styles_desktop.css">
 </head>
 <body>
-    <div class="visuel">
-        <iframe class="youtube" src="https://www.youtube.com/embed/zCEUc5eHMd8" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-                            encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
-        <p class="legende">Portrait vidéo pour le CLAP</p>
+
+    <div class="galerie">
+        <div class="box">
+            <div class="colonne">
+                <iframe class="youtube" src="https://www.youtube.com/embed/zCEUc5eHMd8" loading="lazy"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <p class="legende">Portrait vidéo pour le CLAP</p>
+
+              
+            </div>
+
+            <div class="colonne">
+                <iframe class="youtube" src="https://www.youtube.com/embed/rplIf_1_Kng" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                                                    encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <p class="legende">Court-métrage : 18h film project</p>
+            
+                <audio class="audio" controls="controls">
+                    <source src="../img/audiovisuel/1.wav">
+                </audio>
+                <p class="legende">Parodie pub Wish</p>
+            </div>
+
+            <div class="colonne">
+                <iframe class="youtube" src="https://www.youtube.com/embed/gEZz9BYr8MA" loading="lazy"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <p class="legende">Motion design : Kinetic typography</p>
+
+        
+            </div>
+        </div>
     </div>
-    <div class="visuel">
-        <iframe class="youtube" src="https://www.youtube.com/embed/rplIf_1_Kng" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-                            encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
-        <p class="legende">Court-métrage : 18h film project</p>
-    </div>
-    <div class="visuel">
-        <iframe class="youtube" src="https://www.youtube.com/embed/gEZz9BYr8MA" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-                            encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
-        <p class="legende">Motion design : Kinetic typography</p>
-    </div>
-    <div class="visuel">
-        <audio class="youtube" controls="controls">
-            <source src="../img/audiovisuel/1.wav">
-        </audio>
-        <p class="legende">Fausse pub radio</p>
-    </div>
+        
 </body>
 </html>
